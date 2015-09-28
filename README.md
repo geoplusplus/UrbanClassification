@@ -1,8 +1,6 @@
 # Urban Classification Based on Straight Line
 
-I use some machine learning and image processing algorithm to build this classifier, it is able to detect urban and rural region
-automatically with good results. I just got 42 (600x600) sample images for training purpose, and 20 (600x600) images for testing. 
-All the images are from google maps. See more details, please read "urban_recogn.pdf"
+I use some machine learning and image processing algorithms to build this classifier, it is able to detect urban and rural region automatically based on training set. I just got 42 (600x600) sample images for training purpose, and 20 (600x600) images for testing. All the images are from google maps. See more details, please read "urban_recogn.pdf"
 
 How to run:
 
