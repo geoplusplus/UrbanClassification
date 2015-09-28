@@ -1,0 +1,6 @@
+PROJECT ( urban_recogn )
+CMAKE_MINIMUM_REQUIRED ( VERSION 2.8 )
+SET ( OpenCV_DIR /usr/local/include/opencv )
+FIND_PACKAGE ( OpenCV REQUIRED )
+ADD_EXECUTABLE ( urban_recogn urban_recogn.cpp )
+TARGET_LINK_LIBRARIES ( urban_recogn ${OpenCV_LIBS} )
